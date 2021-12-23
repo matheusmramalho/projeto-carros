@@ -6,7 +6,7 @@ export class Category {
     description: string;
     created_at: Date;
 
-    constructor(parameters?) {
+    constructor() {
         if (!this.id) {
             this.id = uuidv4();
         }
